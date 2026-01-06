@@ -22,12 +22,11 @@ This book has a more practical approach to distributed systems (less theory and 
 
 - [Course Introduction](slides/0-course-info.pdf)
 - [Introduction to Distributed Systems](slides/1-introduction.pdf)
-- [Gorums](slides/2-gorums-intro.pdf)
-- [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf)
-- [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf)
-- [Global Consistent States](slides/5-global-states.pdf)
+- (link yet not active) [Gorums](slides/2-gorums-intro.pdf)
+- (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf)
+- (link yet not active) [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf)
+- (link yet not active) [Global Consistent States](slides/5-global-states.pdf)
 - [Designing for Understandability: The Raft Consensus Algorithm](https://www.youtube.com/watch?v=vYp4LYbnnW8) (video lecture)
-- [Guest Lecture: Building Resilient Systems](slides/6-cleipnir-presentation.pdf)
 
 The slides from **the guest lectures are also syllabus**.
 
