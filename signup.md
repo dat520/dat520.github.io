@@ -54,7 +54,7 @@ Follow the steps below to register and sign up for the course on QuickFeed.
 
 ## Signing up for the Course on QuickFeed
 
-1. Find the DAT520 Distributed Systems course and click Enroll.
+1. Find the Distributed Systems course and click Enroll.
 
 2. Wait for the teaching staff to confirm your QuickFeed registration.
 
