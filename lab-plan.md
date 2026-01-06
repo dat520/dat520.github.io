@@ -9,7 +9,6 @@
 |   5   | [Multi-Paxos with Gorums][5]                             | Pass/fail  | TA Approval | Group        | 20-30 hours | March 19    |
 |   6   | [Multi-Paxos with Clients and Performance Evaluation][6] | Pass/fail  | TA Approval | Group        | 20-30 hours | April 9     |
 |   7   | [Replicated Bank Application][7]                         | No grading | No Approval | Group        | 20-30 hours | April 23    |
-|   8   | [Paxos Reconfiguration][8]                               | No grading | No Approval | Group        | 30-50 hours | April 30    |
 
 [1]: https://github.com/dat520-2026/assignments/tree/main/lab1
 [2]: https://github.com/dat520-2026/assignments/tree/main/lab2
@@ -18,4 +17,3 @@
 [5]: https://github.com/dat520-2026/assignments/tree/main/lab5
 [6]: https://github.com/dat520-2026/assignments/tree/main/lab6
 [7]: https://github.com/dat520-2026/assignments/tree/main/lab7
-[8]: https://github.com/dat520-2026/assignments/tree/main/lab8
