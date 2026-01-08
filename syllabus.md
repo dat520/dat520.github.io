@@ -22,6 +22,7 @@ This book has a more practical approach to distributed systems (less theory and 
 
 - [Course Introduction](slides/0-course-info.pdf)
 - [Introduction to Distributed Systems](slides/1-introduction.pdf)
+- [Introduction to Distributed Systems (Chapter 1)](slides/ch1-introduction.pdf)
 - (link yet not active) [Gorums](slides/2-gorums-intro.pdf)
 - (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf)
 - (link yet not active) [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf)
@@ -51,7 +52,7 @@ The following wikipedia articles are syllabus:
 
 - [The CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 - [The PACELC Theorem](https://en.wikipedia.org/wiki/PACELC_theorem)
-- [The FLP Impossibility Result](<https://en.wikipedia.org/wiki/Consensus_(computer_science)#The_FLP_impossibility_result_for_asynchronous_deterministic_consensus>)
+- [The FLP Impossibility Result](https://en.wikipedia.org/wiki/Consensus_%28computer_science%29#The_FLP_impossibility_result_for_asynchronous_deterministic_consensus)
 - [The Two Generals Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
 - [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Byzantine Generals Problem](https://en.wikipedia.org/wiki/Byzantine_fault)
