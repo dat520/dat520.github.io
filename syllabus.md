@@ -20,13 +20,13 @@ This book has a more practical approach to distributed systems (less theory and 
 
 ## The lecture presentations are syllabus
 
-- [Course Introduction](slides/0-course-info.pdf)
-- [Introduction to Distributed Systems](slides/1-introduction.pdf)
-- [Introduction to Distributed Systems (Chapter 1)](slides/ch1-introduction.pdf)
-- (link yet not active) [Gorums](slides/2-gorums-intro.pdf)
-- (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf)
-- (link yet not active) [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf)
-- (link yet not active) [Global Consistent States](slides/5-global-states.pdf)
+- [Course Introduction](slides/0-course-info.pdf ':ignore')
+- [Introduction to Distributed Systems](slides/1-introduction.pdf ':ignore')
+- [Introduction to Distributed Systems (Chapter 1)](slides/ch1-introduction.pdf ':ignore')
+- (link yet not active) [Gorums](slides/2-gorums-intro.pdf ':ignore')
+- (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
+- (link yet not active) [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf ':ignore')
+- (link yet not active) [Global Consistent States](slides/5-global-states.pdf ':ignore')
 - [Designing for Understandability: The Raft Consensus Algorithm](https://www.youtube.com/watch?v=vYp4LYbnnW8) (video lecture)
 
 The slides from **the guest lectures are also syllabus**.
@@ -41,12 +41,12 @@ For example, you may be asked to explain different portions of a proto file, or 
 
 The following papers are required reading:
 
-- [Paxos Explained from Scratch](reading/paxos-scratch-paper.pdf), Hein Meling and Leander Jehl
-- [Paxos Made Simple](reading/paxos-simple.pdf), Leslie Lamport
-- [In Search of an Understandable Consensus Algorithm](reading/raft.pdf), Diego Ongaro and John Ousterhout
-- [Consistent Global States](reading/consistent-global-states.pdf), Keith Marzullo and Ozalp Babaoglu
-- [Keeping CALM When Distributed Consistency Is Easy](reading/keeping-calm.pdf), Joseph M. Hellerstein, Peter Alvaro
-- [The Tail at Scale](reading/tail-at-scale.pdf), Jeff Dean and Luiz André Barroso
+- [Paxos Explained from Scratch](reading/paxos-scratch-paper.pdf ':ignore'), Hein Meling and Leander Jehl
+- [Paxos Made Simple](reading/paxos-simple.pdf ':ignore'), Leslie Lamport
+- [In Search of an Understandable Consensus Algorithm](reading/raft.pdf ':ignore'), Diego Ongaro and John Ousterhout
+- [Consistent Global States](reading/consistent-global-states.pdf ':ignore'), Keith Marzullo and Ozalp Babaoglu
+- [Keeping CALM When Distributed Consistency Is Easy](reading/keeping-calm.pdf ':ignore'), Joseph M. Hellerstein, Peter Alvaro
+- [The Tail at Scale](reading/tail-at-scale.pdf ':ignore'), Jeff Dean and Luiz André Barroso
 
 The following wikipedia articles are syllabus:
 
@@ -62,11 +62,11 @@ The following wikipedia articles are syllabus:
 ### Reading Material
 
 Additional Paxos-related reading material (not required reading) can be found in lab4's [resources](../lab4/resources) folder.
-Robbert van Renesse's [Paxos Made Moderately Complex](https://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf) is also a good resource for understanding the Paxos algorithm in more detail.
+Robbert van Renesse's [Paxos Made Moderately Complex](https://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf ':ignore') is also a good resource for understanding the Paxos algorithm in more detail.
 
 The original Gorums paper is optional reading:
 
-- [Towards New Abstractions for Implementing Quorum-Based Systems](reading/gorums.pdf), Tormod Erevik Lea, Leander Jehl and Hein Meling
+- [Towards New Abstractions for Implementing Quorum-Based Systems](reading/gorums.pdf ':ignore'), Tormod Erevik Lea, Leander Jehl and Hein Meling
 
 ### Optional Video Lectures
 
