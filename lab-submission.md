@@ -30,8 +30,10 @@ In the following, you are expected to run commands from a terminal environment.
    The second is your own private repository named `username-labs`, which is a fork of the `assignments` repository.
    You will have write access to this repository.
    Your solution to the assignments should be pushed here.
-   QuickFeed automatically synchronizes updates from the `assignments` repository to your `username-labs` repository, unless there are conflicts.
-   Conflicts are rare, but if they occur, QuickFeed will create a pull request on your repository for you to resolve them.
+   QuickFeed automatically synchronizes updates from the `assignments` repository to your `username-labs` repository (this also applies to group repositories).
+
+   **Important caveat:** If you have made changes to files that we later update in `assignments`, QuickFeed will *not* synchronize automatically to avoid creating merge conflicts.
+   In that case, you must pull the updates yourself from the upstream `assignments` repository and resolve any conflicts (see [Handling Conflicts from Course Assignment Updates](#handling-conflicts-from-course-assignment-updates)).
 
 2. First, you will need to set up GitHub authentication.
 
@@ -268,13 +270,6 @@ git commit --no-verify
    git pull
    ```
 
-   Or if you prefer rebasing:
-
-   ```console
-   git fetch
-   git rebase
-   ```
-
 2. If there are conflicting changes, you will need to edit the files with conflicts.
    Normally, the conflicts are relatively straight forward to fix by picking one of the two changes:
    (i) your local change, or (2) the web interface (remote) change.
@@ -316,13 +311,6 @@ QuickFeed will run our tests against your `groupname` repository and handle sync
    git pull
    ```
 
-   Or if you prefer rebasing:
-
-   ```console
-   git fetch
-   git rebase
-   ```
-
 2. If there are conflicting changes, you will need to edit the files with conflicts.
    Normally, the conflicts are relatively straight forward to fix by picking one of the two changes:
    (i) your local change, or (2) your group partner's (remote) change.
@@ -343,19 +331,42 @@ QuickFeed will run our tests against your `groupname` repository and handle sync
 ## Handling Conflicts from Course Assignment Updates
 
 QuickFeed automatically synchronizes updates from the `assignments` repository to your `username-labs` or group repository.
-Conflicts are rare, but if they occur (e.g., if you have modified the same files that were updated in the assignments), QuickFeed will create a pull request on your repository.
-You will receive a notification about this pull request.
 
-To resolve the conflict:
+⚠️ **Important caveat:** If you have made local changes to files that we later update in `assignments`, QuickFeed will not synchronize automatically to avoid creating merge conflicts.
 
-1. Go to the pull request on GitHub (it will be titled something like "Merge updates from assignments").
-2. Review the conflicting files.
-3. Resolve the conflicts by editing the files directly on GitHub or by merging the pull request locally.
-4. Once resolved, merge the pull request.
+To resolve this, pull the latest changes from the upstream `assignments` repository and merge them into your repository:
 
-If you prefer to resolve locally:
+1. Ensure you have an `upstream` remote pointing to the course `assignments` repository:
 
-1. Pull the pull request branch to your local repository.
-2. Resolve conflicts using your preferred merge tool (e.g., VSCode).
-3. Commit and push the resolved changes.
-4. Merge the pull request on GitHub.
+   ```console
+   git remote -v
+   ```
+
+   If `upstream` is missing, add it (pick either HTTPS or SSH):
+
+   ```console
+   git remote add upstream https://github.com/dat520-2026/assignments.git
+   ```
+
+   ```console
+   git remote add upstream git@github.com:dat520-2026/assignments.git
+   ```
+
+2. Merge the latest upstream changes into your current branch:
+
+   ```console
+   git pull upstream main
+   ```
+
+3. If Git reports conflicts, resolve them locally (VS Code can help), then stage and commit the result:
+
+   ```console
+   git add <conflicted files>
+   git commit
+   ```
+
+4. Continue working as normal, and push your changes when ready:
+
+   ```console
+   git push
+   ```
