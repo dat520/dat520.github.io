@@ -22,7 +22,8 @@ This book has a more practical approach to distributed systems (less theory and 
 
 - [Course Introduction](slides/0-course-info.pdf ':ignore')
 - [Introduction to Distributed Systems](slides/1-introduction.pdf ':ignore')
-- [Introduction to Distributed Systems (Chapter 1)](slides/ch1-introduction.pdf ':ignore')
+- [Chapter 1 - Introduction to Distributed Systems](slides/ch1-introduction.pdf ':ignore')
+- [Chapter 2 - Basic Abstractions](slides/ch2-basic-abstractions.pdf ':ignore')
 - [gRPC](slides/2-grpc.pdf ':ignore')
 - [Gorums](slides/3-gorums.pdf ':ignore')
 - (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
