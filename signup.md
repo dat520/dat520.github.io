@@ -4,7 +4,7 @@
   - [QuickFeed](#quickfeed)
   - [Git and GitHub](#git-and-github)
   - [QuickFeed Registration](#quickfeed-registration)
-  - [Signing up for the Course on QuickFeed](#signing-up-for-the-course-on-quickfeed)
+  - [Enroll in the Course on QuickFeed](#enroll-in-the-course-on-quickfeed)
   - [Group Signup on QuickFeed](#group-signup-on-quickfeed)
   - [Discord Course Server Registration](#discord-course-server-registration)
 
@@ -42,19 +42,19 @@ Follow the steps below to register and sign up for the course on QuickFeed.
 
 1. **DISCLAIMER:** QuickFeed requires access to your GitHub account to support its intended function.
 
-2. **Decision:** You _must decide_ whether to use and existing GitHub account or create a new one for this and other courses.
+2. **Decision:** You _must decide_ whether to use an existing GitHub account or create a new one for this and other courses.
    If you want to use your existing account, you can skip the next step.
 
 3. Go to [GitHub](http://github.com) and register.
 
-4. Click the GitHub icon in the upper-right corner of [QuickFeed](http://uis.itest.run) to login.
-   You will then be taken to GitHub's website.
+4. Login in to [QuickFeed](http://uis.itest.run) using your GitHub account.
+   You will then be taken to GitHub's website, unless you are already logged in.
 
 5. Approve that the QuickFeed application can access the requested parts of your account.
 
-## Signing up for the Course on QuickFeed
+## Enroll in the Course on QuickFeed
 
-1. Find the Distributed Systems course and click Enroll.
+1. Click [Enroll](http://uis.itest.run/dat520).
 
 2. Wait for the teaching staff to confirm your QuickFeed registration.
 
