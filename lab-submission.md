@@ -15,8 +15,6 @@
 
 ## Introduction
 
-Deployment test.
-
 This section give step-by-step instructions on how to submit assignments.
 In the following, you are expected to run commands from a terminal environment.
 
