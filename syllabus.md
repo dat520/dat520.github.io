@@ -27,8 +27,8 @@ This book has a more practical approach to distributed systems (less theory and 
 - [Chapter 3 - Reliable Broadcast](slides/ch3-reliable-broadcast.pdf ':ignore')
 - [gRPC](slides/2-grpc.pdf ':ignore')
 - [Gorums](slides/3-gorums.pdf ':ignore')
-- (link yet not active) [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
-- (link yet not active) [Paxos Made Insanely Simple](slides/4-paxos-insanely-simple.pdf ':ignore')
+- [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
+- [Paxos Made Insanely Simple](slides/4-paxos-made-insanely-simple.pdf ':ignore')
 - (link yet not active) [Global Consistent States](slides/5-global-states.pdf ':ignore')
 - [Designing for Understandability: The Raft Consensus Algorithm](https://www.youtube.com/watch?v=vYp4LYbnnW8) (video lecture)
 
