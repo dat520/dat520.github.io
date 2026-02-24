@@ -31,7 +31,7 @@ This book has a more practical approach to distributed systems (less theory and 
 - [A Story About Systems, Firewalls, LLMs, and Rethinking Assumptions](slides/GorumsRedesign-All-to-All-with-LLMs.pdf ':ignore')
 - [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
 - [Paxos Made Insanely Simple](slides/4-paxos-made-insanely-simple.pdf ':ignore')
-- (link yet not active) [Global Consistent States](slides/5-global-states.pdf ':ignore')
+- [Global Consistent States](slides/5-global-states.pdf ':ignore')
 - [Designing for Understandability: The Raft Consensus Algorithm](https://www.youtube.com/watch?v=vYp4LYbnnW8) (video lecture)
 
 The slides from **the guest lectures are also syllabus**.
