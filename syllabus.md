@@ -25,6 +25,7 @@ This book has a more practical approach to distributed systems (less theory and 
 - [Chapter 1 - Introduction to Distributed Systems](slides/ch1-introduction.pdf ':ignore')
 - [Chapter 2 - Basic Abstractions](slides/ch2-basic-abstractions.pdf ':ignore')
 - [Chapter 3 - Reliable Broadcast](slides/ch3-reliable-broadcast.pdf ':ignore')
+- [Chapter 4 - Shared Memory](slides/ch4-shared-memory.pdf ':ignore')
 - [Chapter 6 - Consensus Variants](slides/ch6-consensus-variants.pdf ':ignore')
 - [gRPC](slides/2-grpc.pdf ':ignore')
 - [Gorums](slides/3-gorums.pdf ':ignore')
