@@ -30,6 +30,7 @@ This book has a more practical approach to distributed systems (less theory and 
 - [gRPC](slides/2-grpc.pdf ':ignore')
 - [Gorums](slides/3-gorums.pdf ':ignore')
 - [A Story About Systems, Firewalls, LLMs, and Rethinking Assumptions](slides/GorumsRedesign-All-to-All-with-LLMs.pdf ':ignore')
+- [Fortifying Data Availability and Synchronization in Decentralized Storage Systems](slides/FortifyingDecentralizedStorageSystems.pdf ':ignore')
 - [Paxos Explained From Scratch](slides/3-paxos-from-scratch.pdf ':ignore')
 - [Paxos Made Insanely Simple](slides/4-paxos-made-insanely-simple.pdf ':ignore')
 - [Global Consistent States](slides/5-global-states.pdf ':ignore')
