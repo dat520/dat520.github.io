@@ -1,7 +1,6 @@
 # Installing Go
 
-The most recent version of Go is 1.25.5, while Go 1.26 is expected in early February 2026.
-You will need at least Go 1.25.x for this course.
+You will need at least Go 1.27.2 for this course.
 
 If you have previously installed Go, please make sure to update to the latest version.
 To check your currently installed version of Go, run the following command in a terminal:
