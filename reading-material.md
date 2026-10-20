@@ -22,6 +22,11 @@ See the [Syllabus](syllabus.md) for details on which papers are required reading
 | [Reconfiguring Replicated Atomic Storage](reading/reconfig10.pdf ':ignore')                            | Marcos K. Aguilera et al.                      | Reconfiguration in replicated storage systems          |
 | [SMART: Make Atomic Register Distributed Systems Practical](reading/smart06.pdf ':ignore')             | Ittai Abraham, Gregory Chockler, Dahlia Malkhi | Practical atomic register implementations              |
 
+## Interactive Resources and Further Reading
+
+- [The Raft Consensus Algorithm](https://raft.github.io/): An overview of Raft with interactive visualizations and links to papers and implementations.
+- [Byzantine Agreement is impossible for n ≤ 3f under partial synchrony](https://decentralizedthoughts.github.io/2019-06-25-on-the-impossibility-of-byzantine-agreement-for-n-equals-3f-in-partial-synchrony/): An explanation of the replica bound for Byzantine agreement under partial synchrony.
+
 ## Wikipedia Articles (Required)
 
 - [The CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)

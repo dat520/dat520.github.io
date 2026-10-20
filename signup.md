@@ -13,7 +13,7 @@
 This course uses [QuickFeed](https://uis.itest.run/), a tool developed at the University of Stavanger for students and teaching staff to manage the submission and validation of lab assignments.
 All lab submissions from students are handled using Git and GitHub.
 Thus, basic knowledge of these tools are necessary.
-The procedure used to submit your lab assignments is explained in the [lab submission process](lab-submission.md).
+For submission instructions, open your course page on [QuickFeed](https://uis.itest.run/) and select **Submission Guide** under **Help**.
 
 Students push their updated lab submissions to GitHub.
 Every lab submission is then processed by QuickFeed.

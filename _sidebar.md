@@ -8,7 +8,6 @@
 
 * **Labs & Assignments**
   * [Course Signup](signup.md)
-  * [Lab Submission Guidelines](lab-submission.md)
 
 * **Policies**
   * [Grading & Collaboration](policy.md)
